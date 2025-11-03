@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+.body{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+    background-color: #000;
+    font-family: "Poppins" ,sans-serif;
+    min-height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+width: 70%;
+margin: auto;   v
+}
+.grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 3%;
+}
+.card{
+    overflow: hidden;
+    padding: 20px;
+    background-color:aqua;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.card_img img{
+    width: 120%;
+    height: auto;
+    border-radius: 20px;
+    
+
+}
+.card_body{
+padding: 26px 20px 36px 20px;
+border-radius: 20%;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+width: 100%;
+
+}
+.card_title{
+ font-family: 'Merriweather',serif;
+font-weight: 900;
+text-transform: capitalize;
+font-size: 26px;
+padding-bottom: 20px;
+}
+.card_body p {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+}
+.footer1{
+background-color: orange;
+justify-content: space-around;
+display: flex;
+padding: 15px;
+flex: 1;
+}
+.footer2{
+background-color: rgb(211, 185, 236);
+justify-content: space-around;
+display: flex;
+padding: 15px;
+border-bottom-left-radius:0 ;
+}
+.footer3{
+background-color: rgb(54, 211, 54);
+justify-content: space-around;
+display: flex;
+padding: 20px;
+min-width: 100px;
+
+
+}
